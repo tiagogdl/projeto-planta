@@ -1,5 +1,13 @@
 @charset "UTF-8";
 
+:root{
+    --cor1: #F23D4C;
+    --cor2: #96D9D9;
+    --cor3: #33A65B;
+    --cor4: #F2BA52;
+    --cor5: #D98E73;
+}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -11,7 +19,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #F2BA52;
+    background-color: var(--cor4);
 }
 
 main {
