@@ -11,6 +11,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #F2BA52;
 }
 
 main {
@@ -20,17 +21,19 @@ main {
     max-width: 700px;
     max-height: 500px;
     aspect-ratio: 9/16;
-    background-color: black;
+    background-color: white;
     overflow: hidden;
     border-radius: 20px;
+    box-shadow:inset 4px 4px 10px rgba(0, 0, 0, 0.329);
+    
 }
 
 iframe{
     position: absolute;
-    
-    width: 100%;
-    height: 100%;
-    border: 2px solid black;
-    box-sizing: border-box;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 97%;
+    height: 97%;
     border-radius: 20px;
 }
